@@ -36,11 +36,6 @@ header nav .logo {
     line-height: 75px;
 }
 
-header nav .logo a {
-    text-decoration: none;
-    color: var(--light);
-}
-
 header nav .logo:hover {
     animation: spinner 1s linear infinite;
     cursor: pointer;
@@ -161,6 +156,7 @@ main .section_home .section_a .initial:hover {
 
 main .section_home .section_a .caption {
     font-size: 1.2rem;
+    color: var(--semi-dark);
 }
 
 main .section_home .section_a .caption .profession {
@@ -258,6 +254,11 @@ main .section_about .section_d h5 {
 
 main .section_about .section_d p {
     text-align: justify;
+    color: var(--semi-dark);
+}
+
+main .section_about .section_d .technology {
+    color: var(--dark);
 }
 
 main .section_about .section_d ul{
@@ -328,6 +329,10 @@ main .section_portfolio .card img {
     width: 100%;
     object-fit: cover;
     border: 1px solid var(--main-color);
+}
+
+main .section_portfolio .card .card-body .card-text {
+    color: var(--semi-dark);
 }
 
 main .section_portfolio .card .card-body a {
