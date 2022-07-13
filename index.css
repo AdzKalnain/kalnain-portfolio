@@ -126,6 +126,15 @@ header nav .navbar-toggler {
         color: var(--light);
         text-transform: uppercase;
     }
+    header nav ul li:nth-child(5) {
+        border: none;
+    }
+    header nav ul li:nth-child(5):hover {
+        background-color: transparent;
+    }
+    header nav ul li:nth-child(5) a:hover {
+        color: var(--main-color);
+    }
     header nav ul li a:hover {
         border-bottom: none;
     }
