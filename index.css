@@ -74,9 +74,26 @@ header nav ul li a {
 
 header nav ul li {
     list-style-type: none;
-    padding: 0 20px;
+    padding: 0px 20px;
     font-size: 1rem;
-    line-height: 70px;
+    line-height: 40px;
+}
+
+header nav ul li:nth-child(5) {
+    background-color: transparent;
+    border-radius: 20px;
+    margin-left: 5px;
+    border: 2px solid var(--main-color);
+}
+
+header nav ul li:nth-child(5) a:hover {
+    cursor: pointer;
+    color: var(--light);
+    border-bottom: none;
+}
+
+header nav ul li:nth-child(5):hover {
+    background-color: var(--main-color);
 }
 
 header nav ul li a:hover {
@@ -339,6 +356,12 @@ main .section_portfolio .card .card-body a {
     background-color: var(--dark);
     color: var(--light);
     margin-right: 3px;
+}
+
+main .section_portfolio .card .card-body a:hover {
+    color: var(--main-color);
+    background-color: transparent;
+    border: 1px solid var(--main-color);
 }
 
 @media (max-width: 767.98px) {
