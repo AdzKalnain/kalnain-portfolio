@@ -149,9 +149,6 @@ header nav .navbar-toggler {
 main .section_home {
     background-color: var(--body);
     height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     text-align: left;
     padding-right: 80px;
     padding-left: 80px;
@@ -196,8 +193,8 @@ main .section_home .section_a .caption .profession {
     }
     main .section_home {
         text-align: left;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 35px;
+        padding-left: 35px;
     } 
     main .section_home .section_a .greeting {
         font-size: 2rem;
@@ -303,7 +300,7 @@ main .section_about .section_d .arrow-icon {
 
 @media (max-width: 991.98px) {
     main .section_about {
-        padding: 50px 20px;
+        padding: 50px 35px;
     }
     main .section_about .section_c {
         border-right: none;
@@ -375,7 +372,7 @@ main .section_portfolio .card .card-body a:hover {
 
 @media (max-width: 767.98px) {
     main .section_portfolio{
-        padding: 40px 20px;
+        padding: 40px 35px;
     }
     main .section_portfolio .card{
         padding: 20px 20px;
@@ -427,7 +424,7 @@ main .section_contact .card .card-body .card-text {
 
 @media (max-width: 767.98px) {
     main .section_contact {
-        padding: 40px 20px;
+        padding: 40px 35px;
     }    
 }
 
