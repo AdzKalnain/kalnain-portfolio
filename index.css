@@ -21,7 +21,7 @@ html {
 }
 
 /*===============Pre-loader========================*/
-/*.pre-loader {
+.pre-loader {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -79,7 +79,7 @@ html {
     width: 0;
     background: #3aafa9;
     transition: all .2s;
-}*/
+}
 
 /*===============header / navigation===================*/
 header nav {
