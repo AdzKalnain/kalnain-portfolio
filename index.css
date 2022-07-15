@@ -135,7 +135,7 @@ header nav ul li a {
 
 header nav ul li {
     list-style-type: none;
-    padding: 0px 20px;
+    padding: 0 20px;
     font-size: 1rem;
     line-height: 40px;
 }
@@ -276,8 +276,9 @@ main .section_b {
 }
 
 main .section_home .section_b .portrait {
-    width: 500px;
-    height: 550px;
+    /*width: 500px;*/
+    /*height: 550px;*/
+    width: 100%;
 }
 
 @media (max-width: 991.98px) {
@@ -287,10 +288,10 @@ main .section_home .section_b .portrait {
     main .section_home .section_b {
         text-align: center;
     }
-    main .section_home .section_b .portrait {
+    /*main .section_home .section_b .portrait {
         width: 400px;
         height: 450px;
-    }    
+    }*/    
 }
 
 /*=================About me start====================*/
@@ -310,8 +311,7 @@ main .section_about .section_title .me {
 }
 
 main .section_about .section_c .about-img {
-    width: 400px;
-    height: 400px;
+    width: 100%;
     border-radius: 5px;
 }
 
