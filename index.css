@@ -209,7 +209,6 @@ header nav .navbar-toggler {
 /*=================Section A=========================*/
 main .section_home {
     background-color: var(--body);
-    height: 100vh;
     text-align: left;
     padding-right: 80px;
     padding-left: 80px;
@@ -272,26 +271,26 @@ main .section_home .section_a .caption .profession {
 
 /*==================Section b=====================*/
 main .section_b {
-    margin-top: 4%;
+    margin-top: 1%;
 }
 
 main .section_home .section_b .portrait {
-    /*width: 500px;*/
-    /*height: 550px;*/
     width: 100%;
+    padding-bottom: 20px;
 }
-
-@media (max-width: 991.98px) {
+@media (min-width: 577px) and (max-width: 749px) {
     main .section_b {
-        margin-top: 5px;
+        margin-top: 0%;
     }
     main .section_home .section_b {
         text-align: center;
     }
-    /*main .section_home .section_b .portrait {
-        width: 400px;
-        height: 450px;
-    }*/    
+}
+
+@media (min-width: 750px) and (max-width: 991.98px) {
+    main .section_home .section_b {
+        text-align: center;
+    }
 }
 
 /*=================About me start====================*/
@@ -347,6 +346,8 @@ main .section_about .section_d .technology {
 
 main .section_about .section_d ul{
     list-style-type: none;
+    text-indent: -30px;
+    text-align: left;
 }
 
 main .section_about .section_d ul li {
@@ -379,6 +380,12 @@ main .section_about .section_d .arrow-icon {
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
     main .section_about .section_d .arrow-icon {
         padding-right: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    main .section_about {
+        padding: 50px 20px;
     }
 }
 
@@ -444,6 +451,12 @@ main .section_portfolio .card .card-body a:hover {
     }
 }
 
+@media (max-width: 576px) {
+    main .section_portfolio {
+        padding: 50px 20px;
+    }
+}
+
 /*============section contact=============*/
 
 main .section_contact {
@@ -487,6 +500,12 @@ main .section_contact .card .card-body .card-text {
     main .section_contact {
         padding: 40px 35px;
     }    
+}
+
+@media (max-width: 576px) {
+    main .section_contact {
+        padding: 50px 20px;
+    }
 }
 
 /*=================Footer=================*/

@@ -14,7 +14,7 @@ $(window).on('load', function () {
 
                 setTimeout( function() {
                     counterInit( fValue, lValue );
-                }, 40 );
+                }, 30 );
             } else {
                 $(".pre-loader").delay("slow").fadeOut(function() {
                     $('.pre-loader').hide();
